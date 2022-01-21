@@ -1,0 +1,325 @@
+
+
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% extends "base.html" %}
+
+{% block title %} VieTalk Project{% endblock %}
+
+
+{% block styles %}
+  <!-- Custom styles for this template -->
+
+
+<!-- Latest compiled and minified CSS -->
+
+<link rel="stylesheet" href="static/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@800&family=Dancing+Script:wght@500&family=Montserrat:ital,wght@0,700;0,900;1,400;1,500&family=Poppins&family=Roboto:wght@500;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@800&family=Montserrat:ital,wght@0,700;0,900;1,400;1,500&family=Poppins&family=Roboto:wght@500;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+<!--    Font Awesme-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+{% endblock %}
+
+
+
+{% block content %}
+
+<section id = "main-page" class = "fade-in">
+
+      <div class="row  main-page-row ">
+
+
+        <div class="col-lg-12" >
+          <h1 class = "welcome-text animate-slide-in ">Welcome Home</h1>
+            <a href="https://forms.gle/SFsjGb62hcH3sjZT8">
+              <button type="button" class="btn  btn-register btn-lg">Register</button>
+           </a>
+
+        </div>
+
+
+
+
+      </div>
+
+</section>
+
+
+<section id= "features">
+
+<div class='container-fluid mx-auto mt-5 mb-5 col-12 feature-section rounded' style="text-align: center">
+    <div class="hd">Why VieTalk?</div>
+    <p><small class="text-descript">Always render more and better service than <br />is expected of you, no matter what your ask may be.</small></p>
+    <div class="row" style="justify-content: center">
+
+
+
+        <div class="card col-md-3 col-12 ml-2 card-feature rounded">
+            <div class="card-content">
+                <div class="card-body"> <i class="fas fa-gamepad fa-5x image-feature" style="color:#B3541E;"></i>
+                    <div class="card-title"> We build engaging classrooms. </div>
+                    <div class="card-subtitle">
+                        <p> <small class="text-muted"> We don't like boring classes and neither do you. That's why VieTalk's curriculum is curated by so many interactive exercises and activities but also guaranteed about the content by professionals in the field.</small> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card col-md-3 col-12 ml-2 card-feature rounded">
+            <div class="card-content">
+                <div class="card-body"> <i class="fas fa-users fa-5x image-feature"  style="color:#0F2C67;"></i>
+                    <div class="card-title"> We build a community. </div>
+                    <div class="card-subtitle">
+                        <p> <small class="text-muted"> We not only build a class but a community for students to learn and immerse themselves in the Vietnamese environment and culture. We're happy that you could be a part of our VieTalk family.</small> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+          <div class="card col-md-3 col-12 card-feature rounded">
+            <div class="card-content">
+                <div class="card-body"> <i class="fas fa-money-bill-alt fa-5x image-feature" style="color:#519259;"></i>
+                    <div class="shadow"></div>
+                    <div class="card-title"> We're Free </div>
+                    <div class="card-subtitle">
+                        <p> <small class="text-muted">What's better than a community and engaging activities? It's free. We are committed to bring the best education at zero cost.</small> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+  <!-- Testimonials -->
+
+
+
+
+<!-- Section: Features v.2  #B3541E #B762C1 -->
+<section class="my-5" id = "testimonials">
+
+   <h2 class="pb-2 border-bottom fade-in mb-5">Why do I want to learn Vietnamese? </h2>
+
+  <div class="row">
+
+    <!-- Grid column -->
+    <div class="col-lg-4 col-md-6">
+        <div class="flip-card border-0">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="static/images/ppl_1_bg.png" alt="Avatar" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back" style="background-color:#003262">
+              <h1>Vivian Nguyen</h1>
+              <p>(The First Generation VieTalker)</p>
+              <p> I grew up speaking Vietnamese in my house but once I moved away to college, my fluency digressed massively. <br>I never got exposed to Vietnamese speaker but VieTalk has created a cozy environment that I can dwell in and call my home.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-lg-4 col-md-6">
+        <div class="flip-card border-0">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="static/images/ppl_2_bg.png" alt="Avatar" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back" style="background-color:#D9661F">
+              <h1>Angela Tran</h1>
+              <p>(The Second Generation VieTalker)</p>
+              <p>I want to learn Vietnamese to better communicate with my family, especially my ba ngoai. As I've grown older, I realize the importance of connecting back to my culture and I would love to visit Vietnam and have an efficient understanding of the language.</p>
+            </div>
+          </div>
+        </div>
+
+    </div>
+    <!-- Grid column -->
+
+     <div class="col-lg-4 col-md-6 " >
+        <div class="flip-card border-0">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="static/images/ppl_3_bg.png" alt="Avatar" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back" style="background-color:#FDB515">
+              <h1>Nick Truong</h1>
+              <p>(The Second Generation VieTalker)</p>
+              <p>As I look toward my future, I also want to be able to teach Vietnamese to my children so that they can have the cultural knowledge that I wish I had growing up!</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+</section>
+
+<section id = "apply-cta">
+      <hr>
+      <div class="row">
+
+        <div class="apply-cta-small col-lg-12" >
+           <div>
+               <h1 class = "apply-text "> Ready to Register</h1>
+               <h4 class = "">And take your Vietnamese to the next level  </h4>
+
+           </div>
+           <a href="https://forms.gle/SFsjGb62hcH3sjZT8">
+              <button type="button" class="btn btn-dark btn-register btn-lg">Register</button>
+           </a>
+
+
+
+        </div>
+
+      </div>
+      <hr>
+
+</section>
+
+
+<section id = "become-instructor">
+      <div class="row fade-in">
+
+        <div class="col-lg-6" >
+           <div>
+               <h1 class = "title-text"> Becoming an instructor</h1>
+               <p> Want to share and kindle your love for Vietnamese culture to others. <br>What's better to teach and be a part of VieTalk Project?</p>
+           </div>
+           <a href="https://forms.gle/t7kUsPtLZaNQL3Dq5">
+              <button type="button" class="btn btn-dark btn-register btn-lg">Apply</button>
+           </a>
+
+        </div>
+
+        <div class="col-lg-6">
+          <img src="static/images/instructor.png" alt="" class = "instructor-img">
+        </div>
+
+      </div>
+
+</section>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+{% endblock%}
+
+
+
+
+<!-- <section class="colored-section" id="features"> -->
+
+<!--     <div class="container-fluid"> -->
+
+<!--       <div class="row feature-section rounded"> -->
+
+<!--             <div class="feature-box col-lg-4"> -->
+<!--               <i class="icon fas fa-check-circle fa-4x"></i> -->
+<!--               <h3 class="feature-title">Easy to use.</h3> -->
+<!--               <p>So easy to use, even your dog could do it.</p> -->
+<!--             </div> -->
+
+<!--             <div class="feature-box col-lg-4"> -->
+<!--               <i class="icon fas fa-bullseye fa-4x"></i> -->
+<!--               <h3 class="feature-title">Elite Clientele</h3> -->
+<!--               <p>We have all the dogs, the greatest dogs.</p> -->
+<!--             </div> -->
+
+<!--             <div class="feature-box col-lg-4"> -->
+<!--               <i class="icon fas fa-heart fa-4x"></i> -->
+<!--               <h3 class="feature-title">Guaranteed to work.</h3> -->
+<!--               <p>Find the love of your dog's life or your money back.</p> -->
+<!--             </div> -->
+<!--           </div> -->
+
+<!--       </div> -->
+
+
+<!--   </section> -->
+
+<!-- <section id = "testimonials"> -->
+
+
+
+<!--   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel"> -->
+<!--     <div class="carousel-indicators"> -->
+<!--       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> -->
+<!--       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button> -->
+<!--       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+<!--     </div> -->
+<!--     <div class="carousel-inner"> -->
+<!--       <div class="carousel-item active"> -->
+<!--         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+
+<!--         <div class="container"> -->
+<!--           <div class="carousel-caption text-start"> -->
+<!--             <h1>Example headline.</h1> -->
+<!--             <p>Some representative placeholder content for the first slide of the carousel.</p> -->
+<!--             <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p> -->
+<!--           </div> -->
+<!--         </div> -->
+<!--       </div> -->
+<!--       <div class="carousel-item"> -->
+<!--         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+
+<!--         <div class="container"> -->
+<!--           <div class="carousel-caption"> -->
+<!--             <h1>Another example headline.</h1> -->
+<!--             <p>Some representative placeholder content for the second slide of the carousel.</p> -->
+<!--             <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p> -->
+<!--           </div> -->
+<!--         </div> -->
+<!--       </div> -->
+<!--       <div class="carousel-item"> -->
+<!--         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+
+<!--         <div class="container"> -->
+<!--           <div class="carousel-caption text-end"> -->
+<!--             <h1>One more for good measure.</h1> -->
+<!--             <p>Some representative placeholder content for the third slide of this carousel.</p> -->
+<!--             <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p> -->
+<!--           </div> -->
+<!--         </div> -->
+<!--       </div> -->
+<!--     </div> -->
+<!--     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev"> -->
+<!--       <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+<!--       <span class="visually-hidden">Previous</span> -->
+<!--     </button> -->
+<!--     <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next"> -->
+<!--       <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+<!--       <span class="visually-hidden">Next</span> -->
+<!--     </button> -->
+<!--   </div> -->
+
+
+
+<!-- <div> -->
+<!-- </div> -->
+
+<!-- <div> -->
+<!-- </div> -->
+
+
+
+<!-- </section> -->
